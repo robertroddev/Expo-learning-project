@@ -1,5 +1,5 @@
 import { Image } from 'expo-image';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 
 const PlaceholderImage = require('@/assets/images/background-image.png');
 
@@ -9,7 +9,6 @@ export default function Index() {
       <View style={styles.imageContainer}>
         <Image source={PlaceholderImage} style={styles.image}/>
       </View>
-      <Text style={styles.text}>Hello StickerSmash!</Text>
     </View>
   );
 }
